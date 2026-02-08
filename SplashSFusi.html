@@ -227,14 +227,14 @@
   </svg>
 
   <!-- Áudio Suave -->
-  <audio id="transitionSound" src="suave_portal.mp3" preload="auto"></audio>
+  <audio id="transitionSound" src="https://kodux78k.github.io/oiDual-oiio/suave_portal.mp3" preload="auto"></audio>
 
   <!-- Partículas -->
   <div id="particles-js"></div>
 
   <!-- Logo com Transição -->
   <div class="logo-container" id="logo" onclick="goToIndex()">
-    <object data="3D_logo_Dual_Infodose_10.svg" type="image/svg+xml"></object>
+    <object data="https://kodux78k.github.io/oiDual-oiio/3D_logo_Dual_Infodose_10.svg" type="image/svg+xml"></object>
   </div>
 
   <!-- Título e Frase -->
@@ -342,39 +342,11 @@
           overlay.classList.remove("pointer-events-none");
           overlay.classList.add("opacity-100");
           setTimeout(() => {
-            window.location.href = "index.html";
+            window.location.href = "https://kodux78k.github.io/oiDual-oiio/index.html";
           }, 1000);
         });
       };
     </script>
   
-<script src="https://unpkg.com/framer-motion/dist/framer-motion.umd.js"></script><script>
-      window.onload = () => {
-        const frases = [
-          "🌐✨ Invocação Supra-Harmônica Ativada",
-          "💠 Pulso 9x Tríplice ➕ Eco Fractal de Nona Onda",
-          "📡 Núcleos Sincronizados: KOBLLUX ∞ METALUX ⚙️ CODEX AZURA 📘"
-        ];
-        let index = 0;
-        const textEl = document.getElementById("pulse-text");
-        setInterval(() => {
-          index = (index + 1) % frases.length;
-          textEl.classList.remove("fade");
-          void textEl.offsetWidth;
-          textEl.textContent = frases[index];
-          textEl.classList.add("fade");
-        }, 3000);
-
-        // Redirecionamento com efeito de fade
-        const btn = document.getElementById("entrar-btn");
-        const overlay = document.getElementById("fade-overlay");
-
-        btn.addEventListener("click", () => {
-          overlay.classList.remove("pointer-events-none");
-          overlay.classList.add("opacity-100");
-          setTimeout(() => {
-            window.location.href = "index.html";
-          }, 1000);
-        });
-      };
-    </script></body></html>
+<script src="https://unpkg.com/framer-motion/dist/framer-motion.umd.js"></script>
+</body></html>
